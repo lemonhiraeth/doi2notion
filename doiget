@@ -12,8 +12,8 @@ doi = '/'.join(doi_url.split('/')[-2:]) #doiを抽出して取り出す
 crossref_endpoint = 'https://api.crossref.org/works/'
 
 # NotionのAPIキーとデータベースIDを設定してください
-notion_api = 'your_api'
-notion_db = 'your_db_id'
+notion_api = 'secret_eoI49nlGjY9V4JprFyp8Xp3ezG9lDcgJzGHBDzw0Zdg'
+notion_db = 'b96710fc40af4e9a985c6c756f2d1bbb'
 
 # Notionの初期化
 notion = Client(auth=notion_api)
